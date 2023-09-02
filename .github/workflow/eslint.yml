@@ -1,4 +1,4 @@
-name: Test
+name: ESLint Validation
 
 on:
   pull_request:
@@ -6,8 +6,8 @@ on:
       - '*'
 
 jobs:
-  test:
-    name: Test
+  lint:
+    name: Validate Eslint
     runs-on: ubuntu-latest
 
     steps:
@@ -22,5 +22,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Jest tests
-        run: npm test
+      - name: Validate Eslint
+        run: npm run validate:lint
