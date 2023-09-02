@@ -7,7 +7,9 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "test": "vitest"
+    "test": "vitest",
+    "validate:ts": "tsc",
+    "validate:lint": "eslint ."
   },
   "dependencies": {
     "react": "18.2.0",
