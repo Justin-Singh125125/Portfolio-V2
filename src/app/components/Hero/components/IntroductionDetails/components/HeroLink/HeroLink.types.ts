@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-export type IntroductionLinkProps = {
+export type HeroLinkProps = {
   icon: ReactNode;
   href: string;
 };
