@@ -1,17 +1,17 @@
 import { expect, it, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { Hero } from './Hero';
 
 const mocks = {
-  IntroductionBadge: vi.fn(),
+  HeroDetails: vi.fn(),
 };
 
 vi.mock('./components', () => ({
-  IntroductionBadge: () => mocks.IntroductionBadge(),
+  HeroDetails: () => mocks.HeroDetails(),
 }));
 
-it('should render introduction badge', () => {
+it('should render hero details component', () => {
   render(<Hero />);
 
-  expect(mocks.IntroductionBadge).toHaveBeenCalled();
+  expect(mocks.HeroDetails).toHaveBeenCalled();
 });

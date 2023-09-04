@@ -1,9 +1,9 @@
 import { expect, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { IntroductionBadge } from './IntroductionBadge';
+import { HeroBadge } from './HeroBadge';
 
 it('should render introduction text', () => {
-  render(<IntroductionBadge />);
+  render(<HeroBadge />);
 
   expect(screen.getByText("Hello I'm")).toBeInTheDocument();
 });
