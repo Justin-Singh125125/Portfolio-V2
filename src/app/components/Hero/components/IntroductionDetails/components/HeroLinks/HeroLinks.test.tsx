@@ -7,7 +7,7 @@ const mocks = {
   HeroLink: vi.fn(),
 };
 
-vi.mock('../HeroLink', () => {
+vi.mock('./components', () => {
   return {
     HeroLink: (props: unknown) => mocks.HeroLink(props),
   };

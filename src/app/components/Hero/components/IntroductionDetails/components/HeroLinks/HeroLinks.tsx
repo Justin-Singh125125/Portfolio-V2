@@ -1,5 +1,5 @@
 import { HeroLinksProps } from './HeroLinks.types';
-import { HeroLink } from '../HeroLink';
+import { HeroLink } from './components';
 
 export const HeroLinks = ({ links }: HeroLinksProps) => {
   return (

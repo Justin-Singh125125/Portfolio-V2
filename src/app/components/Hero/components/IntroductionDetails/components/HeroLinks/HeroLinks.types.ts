@@ -1,4 +1,4 @@
-import { HeroLinkProps } from '../HeroLink';
+import { HeroLinkProps } from './components/HeroLink';
 
 export type HeroLinksProps = {
   links: HeroLinkProps[];
