@@ -1,5 +1,3 @@
-import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
-import { GrMail } from 'react-icons/gr';
 import { HeroBadge, HeroLinks } from './components';
 import { DETAILS } from './HeroDetails.constants';
 

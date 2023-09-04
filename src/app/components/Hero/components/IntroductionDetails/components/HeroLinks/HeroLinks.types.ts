@@ -1,3 +1,5 @@
-import { HeroDetailValues } from '../../HeroDetails.types';
+import { HeroLinkProps } from '../HeroLink';
 
-export interface HeroLinksProps extends Pick<HeroDetailValues, 'links'> {}
+export type HeroLinksProps = {
+  links: HeroLinkProps[];
+};

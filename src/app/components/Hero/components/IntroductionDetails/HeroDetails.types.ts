@@ -1,7 +1,6 @@
-import { HeroLinkProps } from './components/HeroLink/HeroLink.types';
+import { HeroLinksProps } from './components';
 
-export type HeroDetailValues = {
+export interface HeroDetailValues extends HeroLinksProps {
   name: string;
   role: string;
-  links: HeroLinkProps[];
-};
+}
