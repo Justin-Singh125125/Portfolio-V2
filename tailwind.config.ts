@@ -11,6 +11,8 @@ const config: Config = {
       black: '#000',
       white: '#fff',
       green: '#0bceaf',
+      gray: 'rgba(0,0,0,.08)',
+      'gray-light': 'rgba(0,0,0,.05)',
     },
   },
   plugins: [],
